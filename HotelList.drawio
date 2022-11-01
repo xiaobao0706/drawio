@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T09:58:57.776Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="CB1j03qAUcw2K2uiylwt" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T10:05:34.748Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="FDZwd1BgP56ZSrMW9ZiV" version="20.4.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1695" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,14 +99,14 @@
         <mxCell id="t5AfuCf_rbfrLG7oyLbx-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="t5AfuCf_rbfrLG7oyLbx-1" source="t5AfuCf_rbfrLG7oyLbx-54" target="t5AfuCf_rbfrLG7oyLbx-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t5AfuCf_rbfrLG7oyLbx-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="t5AfuCf_rbfrLG7oyLbx-1" source="t5AfuCf_rbfrLG7oyLbx-67" target="t5AfuCf_rbfrLG7oyLbx-68">
+        <mxCell id="t5AfuCf_rbfrLG7oyLbx-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="t5AfuCf_rbfrLG7oyLbx-1" source="t5AfuCf_rbfrLG7oyLbx-68" target="t5AfuCf_rbfrLG7oyLbx-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t5AfuCf_rbfrLG7oyLbx-67" value="&lt;font color=&quot;#000000&quot;&gt;Get value metric (&lt;/font&gt;RoomHP&lt;font color=&quot;#000000&quot;&gt;)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=#FF0000;" vertex="1" parent="t5AfuCf_rbfrLG7oyLbx-1">
-          <mxGeometry x="313" y="418.5" width="98" height="38.5" as="geometry" />
-        </mxCell>
         <mxCell id="t5AfuCf_rbfrLG7oyLbx-68" value="&lt;font color=&quot;#000000&quot;&gt;Compare patronHP with roomHP to generate HP not enough reason code&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=#FF0000;" vertex="1" parent="t5AfuCf_rbfrLG7oyLbx-1">
-          <mxGeometry x="308" y="310" width="108" height="80" as="geometry" />
+          <mxGeometry x="310" y="380" width="108" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="t5AfuCf_rbfrLG7oyLbx-77" value="&lt;font color=&quot;#000000&quot;&gt;Set hotel required min HP from room types&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=#FF0000;" vertex="1" parent="t5AfuCf_rbfrLG7oyLbx-1">
+          <mxGeometry x="309" y="300" width="108" height="50" as="geometry" />
         </mxCell>
         <mxCell id="t5AfuCf_rbfrLG7oyLbx-3" value="Integration DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="520" y="960" width="60" height="80" as="geometry" />
@@ -149,10 +149,12 @@
             <mxPoint x="-10" y="735.4705882352941" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t5AfuCf_rbfrLG7oyLbx-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t5AfuCf_rbfrLG7oyLbx-20" target="t5AfuCf_rbfrLG7oyLbx-67">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="t5AfuCf_rbfrLG7oyLbx-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t5AfuCf_rbfrLG7oyLbx-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="562" y="557" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="t5AfuCf_rbfrLG7oyLbx-20" value="GetPatronHP(&lt;font color=&quot;#ff0000&quot;&gt;PatronHP&lt;/font&gt;)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="t5AfuCf_rbfrLG7oyLbx-20" value="Check value metric(&lt;font color=&quot;#ff0000&quot;&gt;RoomHP&lt;/font&gt;)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="495" y="583" width="137" height="40" as="geometry" />
         </mxCell>
         <mxCell id="t5AfuCf_rbfrLG7oyLbx-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t5AfuCf_rbfrLG7oyLbx-58" target="t5AfuCf_rbfrLG7oyLbx-20">
