@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T07:58:32.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Pd1DWuXg8vYLy-1EXJRW" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T08:02:59.161Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Vdb99IZR4eyEWg6h4t6s" version="21.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1845" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -245,15 +245,17 @@
           <mxGeometry x="986" y="598" width="110" height="59" as="geometry" />
         </mxCell>
         <mxCell id="klwGeNsfM9cUBa_eAm7o-83" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="klwGeNsfM9cUBa_eAm7o-3" source="klwGeNsfM9cUBa_eAm7o-74" target="klwGeNsfM9cUBa_eAm7o-75" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="0.0994" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="klwGeNsfM9cUBa_eAm7o-88" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="klwGeNsfM9cUBa_eAm7o-3" source="klwGeNsfM9cUBa_eAm7o-74" target="klwGeNsfM9cUBa_eAm7o-77" edge="1">
           <mxGeometry x="-0.4543" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="klwGeNsfM9cUBa_eAm7o-74" value="Patron has booking check-in date&amp;lt;=today &amp;amp; check-out date&amp;gt;today?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#4d90fe;fontColor=#ffffff;strokeColor=#006EAF;" parent="klwGeNsfM9cUBa_eAm7o-3" vertex="1">
-          <mxGeometry x="963.5" y="690" width="154.5" height="90" as="geometry" />
+        <mxCell id="klwGeNsfM9cUBa_eAm7o-74" value="Patron has booking &lt;br&gt;check-in date&amp;lt;=today &amp;amp; check-out date&amp;gt;today?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#4d90fe;fontColor=#ffffff;strokeColor=#006EAF;" parent="klwGeNsfM9cUBa_eAm7o-3" vertex="1">
+          <mxGeometry x="962.5" y="690" width="156.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="klwGeNsfM9cUBa_eAm7o-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="klwGeNsfM9cUBa_eAm7o-3" source="klwGeNsfM9cUBa_eAm7o-75" target="klwGeNsfM9cUBa_eAm7o-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -274,7 +276,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="klwGeNsfM9cUBa_eAm7o-75" value="Booking Status = Reserved or &lt;br&gt;Checked in?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#4d90fe;fontColor=#ffffff;strokeColor=#006EAF;" parent="klwGeNsfM9cUBa_eAm7o-3" vertex="1">
-          <mxGeometry x="965" y="821" width="150" height="76" as="geometry" />
+          <mxGeometry x="964" y="827" width="155" height="79" as="geometry" />
         </mxCell>
         <mxCell id="95S1D5gs3nLr7--HT-yM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="klwGeNsfM9cUBa_eAm7o-3" target="klwGeNsfM9cUBa_eAm7o-89">
           <mxGeometry relative="1" as="geometry">
@@ -286,20 +288,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="klwGeNsfM9cUBa_eAm7o-76" value="Display as &quot;Lodger&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#4d90fe;fontColor=#ffffff;strokeColor=#006EAF;" parent="klwGeNsfM9cUBa_eAm7o-3" vertex="1">
-          <mxGeometry x="984.5" y="949" width="112" height="50" as="geometry" />
+          <mxGeometry x="985.5" y="949" width="112" height="50" as="geometry" />
         </mxCell>
         <mxCell id="klwGeNsfM9cUBa_eAm7o-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="klwGeNsfM9cUBa_eAm7o-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425" y="863" as="targetPoint" />
-            <mxPoint x="775" y="860.4827586206898" as="sourcePoint" />
+            <mxPoint x="425" y="867" as="targetPoint" />
+            <mxPoint x="775" y="864.4827586206898" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="775" y="863" />
-              <mxPoint x="425" y="863" />
+              <mxPoint x="775" y="867" />
+              <mxPoint x="425" y="867" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="klwGeNsfM9cUBa_eAm7o-77" value="Display as &quot;Non-Lodger&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#4d90fe;fontColor=#ffffff;strokeColor=#006EAF;" parent="klwGeNsfM9cUBa_eAm7o-3" vertex="1">
-          <mxGeometry x="775" y="834.5" width="110" height="50" as="geometry" />
+          <mxGeometry x="775" y="841.5" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="klwGeNsfM9cUBa_eAm7o-89" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="klwGeNsfM9cUBa_eAm7o-3" vertex="1">
           <mxGeometry x="396" y="952" width="60" height="46.5" as="geometry" />
@@ -318,7 +320,7 @@
           <mxGeometry x="1240" y="586" width="120" height="83" as="geometry" />
         </mxCell>
         <mxCell id="klwGeNsfM9cUBa_eAm7o-107" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Lodger:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LodgeStatus=true&lt;/span&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Non-Lodger:&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LodgeStatus=false&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#fff2cc;strokeColor=#d6b656;" parent="klwGeNsfM9cUBa_eAm7o-3" vertex="1">
-          <mxGeometry x="1239" y="816" width="120" height="86" as="geometry" />
+          <mxGeometry x="1239" y="823" width="120" height="86" as="geometry" />
         </mxCell>
         <mxCell id="klwGeNsfM9cUBa_eAm7o-176" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Coding Type Mapping:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.Active&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.Inactive&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.Overdue&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4.Golden&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#fff2cc;strokeColor=#d6b656;" parent="klwGeNsfM9cUBa_eAm7o-3" vertex="1">
           <mxGeometry x="1160" y="230" width="140" height="90" as="geometry" />
